@@ -49,7 +49,7 @@ scroll-snap-type:x mandatory;
 }
 
 .produk-item{
-min-width:250px;
+min-width:70%;
 flex-shrink:0;
 scroll-snap-align:start;
 }
@@ -97,4 +97,16 @@ text-decoration:none;
 
 .social-icons a:hover{
 color:#f4a261;
+}
+
+@media (min-width: 768px){
+
+.produk-item{
+    min-width: 250px;
+}
+
+.hero-image{
+    height: 300px;
+}
+
 }
